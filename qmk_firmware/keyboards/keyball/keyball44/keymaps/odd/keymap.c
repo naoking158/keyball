@@ -38,9 +38,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
                          ),
 
   [2] = LAYOUT_universal(
-                         LGUI_T(KC_TAB) , KC_1    , KC_2         , KC_3           , KC_4           , KC_5                 ,        KC_6   , KC_7    , KC_8    , KC_9    , KC_0         , KC_PLUS          ,
-                         KC_LCTL        , KC_GRV , KC_LBRC       , KC_LCBR        , KC_LPRN        , KC_MINUS             ,        KC_EQL , KC_RPRN , KC_RCBR , KC_RBRC , KC_BACKSLASH , RALT_T(KC_QUOTE) ,
-                         KC_LSFT        , KC_TILDE, _______      , _______        , _______        , KC_UNDS              ,        KC_PLUS , _    , KC_COMM    , KC_DOT    , KC_PIPE      , KC_ENT        ,
+                         LGUI_T(KC_TAB) , KC_1    , KC_2         , KC_3           , KC_4           , KC_5                 ,        KC_6    , KC_7    , KC_8    , KC_9    , KC_0         , KC_PLUS          ,
+                         KC_LCTL        , KC_GRV , KC_LBRC       , KC_LCBR        , KC_LPRN        , KC_MINUS             ,        KC_EQL  , KC_RPRN , KC_RCBR , KC_RBRC , KC_BACKSLASH , RALT_T(KC_QUOTE) ,
+                         KC_LSFT        , KC_TILDE, _______      , _______        , _______        , KC_UNDS              ,        KC_PLUS , _______    , KC_COMM    , KC_DOT    , KC_PIPE      , KC_ENT        ,
                          LALT_T(KC_ESC) , KC_LGUI , LT(2,KC_SPC) , LT(1,KC_SPC)   , LSFT_T(KC_SPC)       ,                 LT(1,KC_SPC) , MO(2) , _______ , _______       , KC_BTN1
                          ),
 
